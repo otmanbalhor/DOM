@@ -15,10 +15,15 @@ const h2Section3 = document.querySelector('main section:nth-child(3) h2');
 
 const Content = h2Section2.innerHTML;
 
-
 h2Section2.innerHTML = h2Section3.innerHTML;
-
 
 h2Section3.innerHTML = Content;
 
 
+if(h2Section3)
+{
+    h2Section3.remove();
+}
+else{
+    console.log("La section n'existe pas");
+}
