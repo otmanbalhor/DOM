@@ -20,13 +20,13 @@ const clickOnSquare = (e) => {
 
   wrapper.appendChild(division1);
 
-  const h2section = document.querySelector('h2');
+  const ulsection3 = document.querySelector('ul');
 
   const liste = document.createElement('li');
 
 
-  liste.innertext= getElapsedTime();
-  h2section.appendChild(liste);
+  liste.innerText= getElapsedTime();
+  ulsection3.appendChild(liste);
 
 }
 
