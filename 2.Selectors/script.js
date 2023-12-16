@@ -30,7 +30,7 @@ para.forEach(function(paragraphe){
         console.log(paragraphe.innerText);
     }
     else{
-         console.log(paragraphe.innerText);
+        console.log(paragraphe.innerText);
     }
    
 });

@@ -27,3 +27,4 @@ if(h2Section3)
 else{
     console.log("La section n'existe pas");
 }
+
