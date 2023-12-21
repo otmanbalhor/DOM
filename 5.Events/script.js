@@ -34,3 +34,4 @@ const actionSquares = document.querySelectorAll('.actionsquare')
 for (let actionSquare of actionSquares) {
   actionSquare.addEventListener('click', clickOnSquare)
 }
+
